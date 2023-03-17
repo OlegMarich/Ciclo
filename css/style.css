@@ -674,7 +674,7 @@ svg path {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 50%;
           flex: 0 1 50%;
-  height: 100%;
+  padding-bottom: 50%;
 }
 
 @media (min-width: 29.99875em) {
