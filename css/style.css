@@ -262,6 +262,44 @@ svg path {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  opacity: 0;
+  -webkit-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+  -webkit-transition-delay: 0s;
+       -o-transition-delay: 0s;
+          transition-delay: 0s;
+}
+
+.active-section .services__item {
+  opacity: 1;
+  opacity: 1;
+  opacity: 1;
+  opacity: 1;
+}
+
+.active-section .services__item:nth-child(1) {
+  -webkit-transition-delay: 0.5s;
+       -o-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+}
+
+.active-section .services__item:nth-child(2) {
+  -webkit-transition-delay: 1s;
+       -o-transition-delay: 1s;
+          transition-delay: 1s;
+}
+
+.active-section .services__item:nth-child(3) {
+  -webkit-transition-delay: 1.5s;
+       -o-transition-delay: 1.5s;
+          transition-delay: 1.5s;
+}
+
+.active-section .services__item:nth-child(4) {
+  -webkit-transition-delay: 2s;
+       -o-transition-delay: 2s;
+          transition-delay: 2s;
 }
 
 .services__icon {
@@ -564,6 +602,47 @@ svg path {
   grid-template-columns: repeat(auto-fit, minmax(13.75rem, 1fr));
 }
 
+.card-slide-4__item {
+  opacity: 0;
+  -webkit-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+  -webkit-transition-delay: 0s;
+       -o-transition-delay: 0s;
+          transition-delay: 0s;
+}
+
+.active-section .card-slide-4__item {
+  opacity: 1;
+  opacity: 1;
+  opacity: 1;
+  opacity: 1;
+}
+
+.active-section .card-slide-4__item:nth-child(1) {
+  -webkit-transition-delay: 0.5s;
+       -o-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+}
+
+.active-section .card-slide-4__item:nth-child(2) {
+  -webkit-transition-delay: 1s;
+       -o-transition-delay: 1s;
+          transition-delay: 1s;
+}
+
+.active-section .card-slide-4__item:nth-child(3) {
+  -webkit-transition-delay: 1.5s;
+       -o-transition-delay: 1.5s;
+          transition-delay: 1.5s;
+}
+
+.active-section .card-slide-4__item:nth-child(4) {
+  -webkit-transition-delay: 2s;
+       -o-transition-delay: 2s;
+          transition-delay: 2s;
+}
+
 .card-slide-4__title {
   font-weight: 700;
   line-height: 1.2666666667;
@@ -701,6 +780,47 @@ svg path {
   grid-template-rows: repeat(2, 1fr);
 }
 
+.slide-9__item {
+  opacity: 0;
+  -webkit-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+  -webkit-transition-delay: 0s;
+       -o-transition-delay: 0s;
+          transition-delay: 0s;
+}
+
+.active-section .slide-9__item {
+  opacity: 1;
+  opacity: 1;
+  opacity: 1;
+  opacity: 1;
+}
+
+.active-section .slide-9__item:nth-child(1) {
+  -webkit-transition-delay: 0.5s;
+       -o-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+}
+
+.active-section .slide-9__item:nth-child(2) {
+  -webkit-transition-delay: 1s;
+       -o-transition-delay: 1s;
+          transition-delay: 1s;
+}
+
+.active-section .slide-9__item:nth-child(3) {
+  -webkit-transition-delay: 1.5s;
+       -o-transition-delay: 1.5s;
+          transition-delay: 1.5s;
+}
+
+.active-section .slide-9__item:nth-child(4) {
+  -webkit-transition-delay: 2s;
+       -o-transition-delay: 2s;
+          transition-delay: 2s;
+}
+
 .item-slide-9 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -746,6 +866,44 @@ svg path {
   -webkit-box-direction: reverse;
       -ms-flex-direction: column-reverse;
           flex-direction: column-reverse;
+  opacity: 0;
+  -webkit-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+  -webkit-transition-delay: 0s;
+       -o-transition-delay: 0s;
+          transition-delay: 0s;
+}
+
+.active-section .slide-10__item {
+  opacity: 1;
+  opacity: 1;
+  opacity: 1;
+  opacity: 1;
+}
+
+.active-section .slide-10__item:nth-child(1) {
+  -webkit-transition-delay: 0.5s;
+       -o-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+}
+
+.active-section .slide-10__item:nth-child(2) {
+  -webkit-transition-delay: 1s;
+       -o-transition-delay: 1s;
+          transition-delay: 1s;
+}
+
+.active-section .slide-10__item:nth-child(3) {
+  -webkit-transition-delay: 1.5s;
+       -o-transition-delay: 1.5s;
+          transition-delay: 1.5s;
+}
+
+.active-section .slide-10__item:nth-child(4) {
+  -webkit-transition-delay: 2s;
+       -o-transition-delay: 2s;
+          transition-delay: 2s;
 }
 
 .slide-10__body {
@@ -789,6 +947,47 @@ svg path {
           flex: 0 1 50%;
   display: -ms-grid;
   display: grid;
+}
+
+.slide-11__item {
+  opacity: 0;
+  -webkit-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+  -webkit-transition-delay: 0s;
+       -o-transition-delay: 0s;
+          transition-delay: 0s;
+}
+
+.active-section .slide-11__item {
+  opacity: 1;
+  opacity: 1;
+  opacity: 1;
+  opacity: 1;
+}
+
+.active-section .slide-11__item:nth-child(1) {
+  -webkit-transition-delay: 0.5s;
+       -o-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+}
+
+.active-section .slide-11__item:nth-child(2) {
+  -webkit-transition-delay: 1s;
+       -o-transition-delay: 1s;
+          transition-delay: 1s;
+}
+
+.active-section .slide-11__item:nth-child(3) {
+  -webkit-transition-delay: 1.5s;
+       -o-transition-delay: 1.5s;
+          transition-delay: 1.5s;
+}
+
+.active-section .slide-11__item:nth-child(4) {
+  -webkit-transition-delay: 2s;
+       -o-transition-delay: 2s;
+          transition-delay: 2s;
 }
 
 .slide-11__image {
